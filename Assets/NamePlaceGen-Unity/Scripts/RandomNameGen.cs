@@ -5,7 +5,8 @@ using System;
 using UnityEngine;
 
 public class RandomNameGen : MonoBehaviour {
-	
+
+	//Gender enum handles the different gender types.
 	private enum Gender {
 		Male,
 		Female,
@@ -13,15 +14,10 @@ public class RandomNameGen : MonoBehaviour {
 	}
 	[SerializeField]
 	private Gender genderType;
+	//List will contain the contents of the name files.
 	private List<String> fileContent = new List<String>();
 
-	public string textFile;
-
-	// Use this for initialization
-	void Start () {
-
-	}
-
+	//Generates Male First Names...
 	public string GenerateFirstNameMale() {
 		fileContent.Clear();
 		LoadFile("NAMES-M.txt");
@@ -31,6 +27,7 @@ public class RandomNameGen : MonoBehaviour {
 		return fileContent[genInt]; 
 	}
 
+	//Generates Female First Names...
 	public string GenerateFirstNameFemale() {
 		fileContent.Clear();
 		LoadFile("NAMES-F.txt");
@@ -40,6 +37,7 @@ public class RandomNameGen : MonoBehaviour {
 		return fileContent[genInt]; 
 	}
 
+	//Generates Other First Names...
 	public string GenerateFirstName() {
 		fileContent.Clear();
 		LoadFile("NAMES-F.txt");
@@ -49,6 +47,7 @@ public class RandomNameGen : MonoBehaviour {
 		return fileContent[genInt]; 
 	}
 
+	//Generates Last Names...
 	public string GenerateLastName() {
 		fileContent.Clear();
 		LoadFile("NAMES.txt");
@@ -58,6 +57,7 @@ public class RandomNameGen : MonoBehaviour {
 		return fileContent[genInt]; 
 	}
 
+	//Generates Middle Names...
 	public string GenerateMiddleName() {
 		fileContent.Clear();
 		LoadFile("NAMES.txt");
@@ -67,6 +67,7 @@ public class RandomNameGen : MonoBehaviour {
 		return fileContent[genInt]; 
 	}
 
+	//Generates Place Names...
 	public string GeneratePlace() {
 		fileContent.Clear();
 		LoadFile("PLACES.txt");
@@ -76,9 +77,11 @@ public class RandomNameGen : MonoBehaviour {
 		return fileContent[genInt]; 
 	}
 
+	//Reads and stores contents of file in a list...
 	public void LoadFile(string fileName) {
 		try {
 			string curLine;
+			//The name files must be in this specific folder to work...
 			StreamReader newReader = new StreamReader("Assets/NamePlaceGen-Unity/Resources/" + fileName);
 
 			using (newReader) {
@@ -95,6 +98,7 @@ public class RandomNameGen : MonoBehaviour {
 		}
 	}
 
+	//Debug method to display stored file content...
 	public void DisplayFileContents() {
 		foreach(string item in fileContent) {
 			Debug.Log(item);
