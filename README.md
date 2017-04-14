@@ -12,6 +12,7 @@
 
 
 ## Examples:
+'''C#
 using UnityEngine;
 public testClass : Monobehavior {
     RandomNameGen genScript;
@@ -24,7 +25,7 @@ public testClass : Monobehavior {
     }
     ...
 }
-
+'''
 
 ## Extra Information:
 ------------------------------
