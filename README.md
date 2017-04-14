@@ -12,10 +12,10 @@
 
 
 ## Examples:
-'''
+```
 using UnityEngine;
 public testClass : Monobehavior {
-    RandomNameGen genScript;
+    private RandomNameGen genScript;
     
     void Start() {
         genScript = GetComponent<RandomNameGen>();
@@ -25,7 +25,7 @@ public testClass : Monobehavior {
     }
     ...
 }
-'''
+```
 
 ## Extra Information:
 ------------------------------
