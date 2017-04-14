@@ -12,7 +12,7 @@
 
 
 ## Examples:
-'''C#
+'''
 using UnityEngine;
 public testClass : Monobehavior {
     RandomNameGen genScript;
