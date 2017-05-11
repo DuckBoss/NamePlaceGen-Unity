@@ -18,7 +18,7 @@ public testClass : Monobehavior {
     private RandomNameGen genScript;
     
     void Start() {
-        genScript = GetComponent<RandomNameGen>();
+        genScript = new RandomNamePlaceGen();
         string MaleFirstName = genScript.GenerateFirstNameMale();
         string FemaleFirstName = genScript.GenerateFirstNameFemale();
         string Place = genScript.GeneratePlace();
@@ -26,6 +26,7 @@ public testClass : Monobehavior {
     ...
 }
 ```
+- For a full demonstration, try the complete project included.
 
 ## Extra Information:
 ------------------------------

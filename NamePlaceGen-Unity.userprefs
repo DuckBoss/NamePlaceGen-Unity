@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NamePlaceGen-Unity\Example\TestRandomGen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NamePlaceGen-Unity\Scripts\RandomNamePlaceGen.cs">
     <Files>
-      <File FileName="Assets\NamePlaceGen-Unity\Scripts\RandomNameGen.cs" Line="19" Column="2" />
-      <File FileName="Assets\NamePlaceGen-Unity\Example\TestRandomGen.cs" Line="11" Column="3" />
+      <File FileName="Assets\NamePlaceGen-Unity\Example\TestRandomGen.cs" Line="17" Column="21" />
+      <File FileName="Assets\NamePlaceGen-Unity\Scripts\RandomNamePlaceGen.cs" Line="20" Column="32" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
