@@ -14,10 +14,11 @@
 ## Examples:
 ```
 using UnityEngine;
+using JJ_RandomNameGen;
 public testClass : Monobehavior {
     private RandomNameGen genScript;
     
-    void Start() {
+    private void Start() {
         genScript = new RandomNamePlaceGen();
         string MaleFirstName = genScript.GenerateFirstNameMale();
         string FemaleFirstName = genScript.GenerateFirstNameFemale();
