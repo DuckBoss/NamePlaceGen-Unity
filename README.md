@@ -26,7 +26,6 @@ public testClass : Monobehavior {
     ...
 }
 ```
-- For a full demonstration, try the complete project included.
 
 ## Extra Information:
 ------------------------------
