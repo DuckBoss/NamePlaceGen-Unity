@@ -9,7 +9,7 @@
 ## Usage : 
 - Have the 'RandomNameGen' Script present in the scene.
 - Generate Male/Female/Other/Place names by calling the public accessible methods in 'RandomNameGen'.
-* I HIGHLY RECOMMEND PRE-CACHING THE NAMES YOU WISH TO USE AT RUNTIME FOR PERFORMANCE REASONS *
+<bold>I HIGHLY RECOMMEND PRE-CACHING THE NAMES YOU WISH TO USE AT RUNTIME FOR PERFORMANCE REASONS</bold>
 
 ## Examples:
 ```
