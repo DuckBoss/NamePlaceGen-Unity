@@ -33,8 +33,14 @@ namespace JJ_RandomNameGen {
 		//Generates Other First Names...
 		public string GenerateFirstName() {
 			fileContent.Clear();
-			LoadFile("NAMES-F.txt");
-
+			
+			UnityEngine.Random randomVal = new Random();
+			int choice = randomVal.Next(0, 2);
+			if(choice == 0)
+				LoadFile("NAMES-F.txt");
+			else
+				LoadFile("NAMES-M.txt");
+			
 			UnityEngine.Random.InitState((int)System.DateTime.Now.Ticks);
 			int genInt = UnityEngine.Random.Range(0, fileContent.Count);
 			return fileContent[genInt]; 
