@@ -30,7 +30,7 @@ namespace JJ_RandomNameGen {
 			return fileContent[genInt]; 
 		}
 
-		//Generates Other First Names...
+		//Generates Any First Name...
 		public string GenerateFirstName() {
 			fileContent.Clear();
 			
