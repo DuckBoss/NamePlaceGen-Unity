@@ -1,7 +1,7 @@
 # RandomNamePlaceGen-Unity
 - This project/package generates random names/places within a Unity Project.
 
-[![GitHub release](https://img.shields.io/badge/Build-1.0-brightgreen.svg)](https://github.com/DuckBoss/NamePlaceGen-Unity/releases/latest)
+[![GitHub release](https://img.shields.io/badge/Build-1.01-brightgreen.svg)](https://github.com/DuckBoss/NamePlaceGen-Unity/releases/latest)
 [![Packagist](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/DuckBoss/NamePlaceGen-Unity/blob/master/LICENSE)
 
 
